@@ -1,0 +1,106 @@
+body{
+	/*background-color: #6A8372;*/
+	background-color: #1C1C1C;
+	/*background-image: url('img/bg1.jpg');*/
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: scroll;
+	width: 100%
+}
+.video-background{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+.video-background video{
+	width: 100%;
+}
+h1{
+	font-family: Handwriting-Dakota;
+	color: #FFFFFB;
+	opacity: 0.8;
+	text-align: center;
+	font-size: 50px;
+}
+#nav{
+	text-align: center;
+	font-family: STSong;
+	font-size: 20px;
+}
+.navbtn{
+	display: inline-block;
+	margin-left: 1.5%;
+
+}
+.navbtn span a{
+	text-decoration: none;
+	color: #BDC0BA;
+}
+.navbtn span a:hover{
+	color: #FFFFFB;
+}
+.nowOn{
+	color: #FFFFFB;
+}
+h2{
+	font-family: SimHei;
+	color: #FFFFFB;
+}
+h4{
+	margin-top: 3%;
+	font-family: SimHei;
+	color: #FFFFFB;
+	opacity: 0.7;
+}
+.aboutDiv{
+	width: 0;
+	margin-top: 4%;
+	padding: 2% 5% 2% 5%;
+	background-color: grey;
+	opacity: 0.7;
+	text-align: center;
+	display: inline-block;
+}
+#aboutLogo{
+	width: 30%;
+}
+.aboutText{
+	background: rgb(85, 90, 86);
+	text-align: center;
+	width: 100%;
+	margin-top: 2%;
+	padding: 1% 3% 2% 3%;
+}
+#map {
+        width: 800px;
+        height: 500px;
+        margin: 1.5% auto;
+}
+.main{
+	bottom: 100px;
+}
+#base{
+	text-align: center;
+	position: relative;
+	/*margin-top: 85%; /*最後個別調％數*/
+	padding: 15px;
+	background: #1C1C1C;
+	width: 100%;
+}
+.va{
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+.link a{
+	font-family: STSong;
+	color: ghostwhite;
+	opacity: 0.8;
+	font-size: 15px;
+	letter-spacing: 5px;
+}
+#logo{
+	width: 70px;
+	margin-top: 4px;
+}
